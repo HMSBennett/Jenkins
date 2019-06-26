@@ -2,7 +2,7 @@
 Description=Jenkins
 
 [Service]
-User=jenkins
+User=jenkinsadm
 
 WorkingDirectory=/home/jenkins
 ExecStart=/usr/bin/java -jar /home/jenkins/jenkins.war
