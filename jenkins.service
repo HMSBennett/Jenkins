@@ -4,8 +4,8 @@ Description=Jenkins
 [Service]
 User=jenkinsadm
 
-WorkingDirectory=/home/jenkins
-ExecStart=/usr/bin/java -jar /home/jenkins/jenkins.war
+WorkingDirectory=/home/jenkinsadm
+ExecStart=/usr/bin/java -jar /home/jenkinsadm/jenkins.war
 
 [Install]
 WantedBy=multi-user.target
