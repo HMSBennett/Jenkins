@@ -17,5 +17,3 @@ sudo systemctl start jenkins
 sudo systemctl enable jenkins
 
 sudo systemctl status jenkins
-
---no-wait
