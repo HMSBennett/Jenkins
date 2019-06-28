@@ -18,4 +18,4 @@ sudo systemctl enable jenkins
 
 #sudo systemctl status jenkins
 
-sudo systemctl is-active --quiet service
+#sudo systemctl is-active --quiet service
